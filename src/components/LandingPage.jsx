@@ -10,10 +10,10 @@ function LandingPage() {
             <div key={index} className="masker  ">
               <div className="w-fit flex items-end ">
                 {index === 1 && (
-                  <div className="mr-[1vw] h-[5.7vw] rounded-md  w-[8vw] top-[1.2vw] relative  bg-green-500 "></div>
+                  <div className="mr-[1vw] h-[5.7vw] rounded-md  w-[8vw] top-[1.6vw]  relative  bg-green-500 "></div>
                 )}
 
-                <h1 className="flex pt-[2vw] -mb-[1vw]  text-[7vw] h-full uppercase font-bold  leading-[.75] font-['Founders_Grotesk_X-Condensed']  ">
+                <h1 className="flex pt-[2vw] -mb-[1vw]  text-[7vw] h-full uppercase font-bold  leading-[.75] ">
                   {item}
                 </h1>
               </div>
